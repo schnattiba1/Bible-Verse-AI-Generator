@@ -1,0 +1,32 @@
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+}
+
+.generate-prompt {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.generate-btn {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  font-size: 16px;
+  padding: 14px 24px;
+}
+
+.hint {
+  opacity: 0.6;
+  font-size: 12px;
+}

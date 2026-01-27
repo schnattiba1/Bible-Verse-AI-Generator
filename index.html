@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bible Verse AI Generator</title>
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Bible Verse AI Generator</h1>
+
+      <main>
+        <div class="form-container">
+          <form>
+            <input
+              type="text"
+              id="verse"
+              placeholder="What emotion are you feeling today?"
+              class="generate-prompt"
+              required
+            />
+            <input type="submit" class="generate-btn" value="Generate Verse" />
+          </form>
+          <div class="hint">i.e. joy, sadness, hope, fear, love</div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
