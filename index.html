@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
-    <title>Bible AI Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>Bible Verse AI Generator</title>
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="stylesheet" href="./src/media.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Bible AI Generator</h1>
+        <h1>Bible Verse AI Generator</h1>
       </header>
 
       <main>
@@ -26,7 +27,9 @@
             />
             <input type="submit" class="btn" id="btn" value="Generate Verse" />
           </form>
+          <div class="hint">i.e, happy, sad, angry</div>
         </div>
+        <h3 id="generated-answer"></h3>
       </main>
     </div>
 
