@@ -3,28 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bible Verse AI Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <title>Bible AI Generator</title>
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/media.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Bible Verse AI Generator</h1>
+    <div class="wrapper">
+      <header>
+        <h1>Bible AI Generator</h1>
+      </header>
 
       <main>
-        <div class="form-container">
+        <div class="container">
           <form>
             <input
+              id="input-text"
               type="text"
-              id="verse"
-              placeholder="What emotion are you feeling today?"
-              class="generate-prompt"
+              class="prompt"
+              placeholder="How are you feeling today?"
               required
             />
-            <input type="submit" class="generate-btn" value="Generate Verse" />
+            <input type="submit" class="btn" id="btn" value="Generate Verse" />
           </form>
-          <div class="hint">i.e. joy, sadness, hope, fear, love</div>
         </div>
       </main>
     </div>
+
+    <!--<footer>Coded by Chanel Chinedu</footer>-->
+    <script src="./src/main.js"></script>
   </body>
 </html>
