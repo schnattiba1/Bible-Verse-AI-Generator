@@ -66,10 +66,10 @@ form {
 .theme img {
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 
 .theme img:hover {
-  cursor: pointer;
   opacity: 0.8;
 }
 

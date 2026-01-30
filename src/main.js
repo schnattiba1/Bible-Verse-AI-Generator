@@ -41,10 +41,13 @@ function generateVerse(event) {
 
   let inputTextElement = document.querySelector("#input-text");
 
+  let h3 = document.querySelector("#generated-answer");
+  h3.innerHTML = "Generating....";
+
   let apiKey = "7b83at211fa42375b047407234bfo5f1";
-  let prompt = `Generate a short Bible verse based on the user's emotions: ${inputTextElement.value}, i.e, happy, upset, sad, excited, etc. If the user types random letters, i.e, sghjjskldf etc response with: 'Please provide a valid emotion so I can generate a Bible verse for you.' Make sure you generate a different bible verse everytime the user enters an emotion.`;
+  let prompt = `Generate a full Bible verse based on the user's emotions: ${inputTextElement.value}`;
   let context =
-    "Make sure you provide the correct book, chapter, and verse number for each Bible verse you generate and especially based on the user's emotions. Respond with only the Bible verse and nothing else. Make sure is written to the end.";
+    "You are an AI that generates Bible verses based on user emotions. Respond with only the Bible verse and nothing else. If the user types random letters, i.e, sghjjskldf etc response with: 'Please provide a valid emotion so I can generate a Bible verse for you.' If there is a chapter with 2 or more verses, generate all verses, not stopping at one point etc for example: 1 Corinthians 13:4-7: 'Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily'. Not just this verse but any other verses that are more and needs to be generated etc and the last example: Philippians 4:6-7: 'Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your'";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   axios.get(apiUrl).then(displayVerse);
