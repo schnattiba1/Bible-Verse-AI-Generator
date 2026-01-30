@@ -1,12 +1,15 @@
 @media (max-width: 600px) {
-  .prompt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  .prompt,
   .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
   }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #888;
 }

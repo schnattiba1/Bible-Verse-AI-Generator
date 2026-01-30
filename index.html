@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./src/media.css" />
   </head>
   <body>
+    <div id="theme-toggle" class="theme">
+      <img src="./imgs/night-mode.png" alt="dark-mode" />
+    </div>
+
     <div class="wrapper">
       <header>
         <h1>Bible Verse AI Generator</h1>
@@ -22,18 +26,17 @@
               id="input-text"
               type="text"
               class="prompt"
-              placeholder="How are you feeling today?"
+              placeholder="How are you feeling?"
               required
             />
             <input type="submit" class="btn" id="btn" value="Generate Verse" />
           </form>
-          <div class="hint">i.e, happy, sad, angry</div>
         </div>
         <h3 id="generated-answer"></h3>
       </main>
     </div>
 
-    <!--<footer>Coded by Chanel Chinedu</footer>-->
+    <footer>Coded by Chanel Chinedu ❤️</footer>
     <script src="./src/main.js"></script>
   </body>
 </html>
