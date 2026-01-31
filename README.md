@@ -1,5 +1,5 @@
 # Overview
-The Bible Verse AI Generator allows the AI to select Bible verses based on the user's current emotion. 
+The Bible Verse AI Generator allows the AI to select a Bible verse based on the user's current emotion. 
 
 # Technologies
 - HTML
