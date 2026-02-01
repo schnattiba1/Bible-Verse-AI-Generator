@@ -20,5 +20,7 @@ It uses sheCodes AI and axios library to fetch the API from the sheCodes server.
 # Getting started
 To run this project, you need to have this repository cloned into your local computer.
 To clone this repository, open your terminal and enter:
+
 ``git clone https://github.com/schnattiba1/Bible-Verse-AI-Generator.git``
+
 Once it's cloned, you are able to run this project on your computer.
