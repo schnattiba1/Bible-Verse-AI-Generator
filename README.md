@@ -1,13 +1,13 @@
 # Overview
 ## Bible Verse AI Generator
-In this personal project, I built Bible Verse AI Generator that allows the AI to select a bible verse based on the user's current emotion. 
+In this personal project, I built a Bible Verse AI Generator that allows the AI to select a bible verse based on the user's current emotion.  
 
 This web app was built with:
 - HTML
 - CSS
 - JavaScript
   
-It uses sheCodes AI and axios library to fetch the API from the sheCodes server.
+It uses sheCodes AI and axios library to fetch the API from their server.
 
 # Technologies
 - HTML
@@ -23,4 +23,4 @@ To clone this repository, open your terminal and enter:
 
 ``git clone https://github.com/schnattiba1/Bible-Verse-AI-Generator.git``
 
-Once it's cloned, you are able to run this project on your computer.
+Once it's cloned, you are able to run this project on your computer by just clicking "go live" on VSCode.
